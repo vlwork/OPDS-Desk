@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/">
+  <id>tag:example.test,2026:author-alphabetical-2</id>
+  <title>Книги автора по алфавиту — страница 2</title>
+  <entry>
+    <id>urn:uuid:22222222-2222-4222-8222-222222222222</id>
+    <title>Alphabetical Book Two</title>
+    <author><name>Example Author</name></author>
+    <dc:language>en</dc:language>
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="book-two.epub" />
+  </entry>
+</feed>

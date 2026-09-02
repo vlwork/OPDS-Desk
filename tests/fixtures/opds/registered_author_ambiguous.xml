@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:example.test,2026:author-ambiguous</id>
+  <title>Ambiguous author navigation</title>
+  <entry>
+    <id>tag:example.test,2026:collection-a</id>
+    <title>Collection A</title>
+    <link rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="collection-a.xml" />
+  </entry>
+  <entry>
+    <id>tag:example.test,2026:collection-b</id>
+    <title>Collection B</title>
+    <link rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="collection-b.xml" />
+  </entry>
+</feed>

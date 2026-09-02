@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a focused improvement to OPDS Desk
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: Do not include private OPDS URLs, filesystem paths, or library contents.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Explain the user need without including private data.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: workflow-impact
+    attributes:
+      label: Impact on the existing workflow
+      description: Describe compatibility, UI, data, queue, or packaging effects.
+    validations:
+      required: true

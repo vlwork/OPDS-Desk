@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:uuid:3d395a64-c3fd-4b16-b09d-a87a6218196a</id>
+  <title>Example related search results</title>
+  <updated>2026-08-16T12:00:00Z</updated>
+
+  <entry>
+    <id>urn:uuid:0d508a30-073f-4028-b522-592a2acbdb98</id>
+    <title>The Glass Harbor</title>
+    <updated>2026-08-16T12:00:00Z</updated>
+    <author><name>Example Writer</name></author>
+    <link rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip" href="books/glass-harbor.epub" />
+    <link rel="related" type="application/atom+xml"
+          title=" Books by Example Writer " href="../authors/example.xml" />
+    <link rel="related" type="application/atom+xml"
+          title="Books by Example Writer" href="../authors/example.xml" />
+    <link rel="collection related" type="application/atom+xml;profile=opds-catalog"
+          title="Featured Collection" href="https://collections.example.test/featured.xml" />
+    <link rel="related" type="text/html"
+          title="Web page" href="https://www.example.test/book.html" />
+    <link rel="related" type="application/atom+xml"
+          href="missing-title.xml" />
+    <link rel="related" type="application/atom+xml"
+          title="   " href="empty-title.xml" />
+    <link rel="related" type="application/atom+xml"
+          title="Local file" href="file:///catalog.xml" />
+    <link rel="related" type="application/atom+xml"
+          title="Credentialed catalog" href="https://user:secret@example.test/catalog.xml" />
+    <link rel="related" type="application/atom+xml"
+          title="Malformed catalog" href="https://[broken" />
+  </entry>
+
+  <entry>
+    <id>tag:catalog.example.test,2026:stone-lantern</id>
+    <title>The Stone Lantern</title>
+    <updated>2026-08-16T12:00:00Z</updated>
+    <author><name>Another Writer</name></author>
+    <link rel="http://opds-spec.org/acquisition/open-access"
+          type="application/fb2+xml" href="books/stone-lantern.fb2" />
+    <link rel="related" type="application/atom+xml"
+          title="Books by Another Writer" href="../writers/another.xml" />
+    <link rel="related" type="application/atom+xml;profile=opds-catalog"
+          title="Example Saga" href="../collections/example-saga.xml" />
+    <link rel="related" type="application/atom+xml"
+          title="Extended Example Universe" href="../collections/extended-universe.xml" />
+  </entry>
+</feed>

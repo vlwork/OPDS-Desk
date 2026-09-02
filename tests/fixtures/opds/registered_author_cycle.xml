@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:example.test,2026:author-cycle</id>
+  <title>Cycle author navigation</title>
+  <entry>
+    <id>tag:example.test,2026:author-cycle-self</id>
+    <title>Книги по алфавиту</title>
+    <link rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="registered_author_cycle.xml" />
+  </entry>
+</feed>

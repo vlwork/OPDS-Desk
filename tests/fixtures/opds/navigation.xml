@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:uuid:6b2068c2-f4f3-4c30-97a9-501e3ef83512</id>
+  <title>Example OPDS navigation</title>
+  <author><name>Example Catalog</name></author>
+  <updated>2026-01-15T10:00:00Z</updated>
+  <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=navigation" href="navigation.xml" />
+
+  <entry>
+    <id>urn:catalog:recent-publications</id>
+    <title>Recent publications</title>
+    <updated>2026-01-15T10:00:00Z</updated>
+    <content type="text">Recently added books</content>
+    <link rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="./publications_page_1.xml" />
+  </entry>
+
+  <entry>
+    <id>tag:catalog.example.test,2026:featured</id>
+    <title>Featured collections</title>
+    <updated>2026-01-15T10:00:00Z</updated>
+    <content type="text">Curated collections</content>
+    <link rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=navigation" href="https://catalog.example.test/catalog/featured" />
+  </entry>
+</feed>

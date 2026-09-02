@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:uuid:8b213be5-24d2-45a6-9464-d1d937898aeb</id>
+  <title>Searchable example catalog</title>
+  <author><name>Example Catalog</name></author>
+  <updated>2026-08-15T10:00:00Z</updated>
+  <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=navigation" href="search_navigation.xml" />
+  <link rel="search" type="application/json" href="https://api.example.test/find" />
+  <link rel="search" type="application/atom+xml;profile=opds-catalog" href="https://reader.example.test/find?q={searchTerms}" />
+  <link rel="search" type="application/opensearchdescription+xml" href="/metadata/opensearch.xml" />
+  <link rel="next" type="application/atom+xml;profile=opds-catalog" href="?page=2" />
+
+  <entry>
+    <id>urn:uuid:f9aae724-3019-43f2-b5f4-bc7ecc571cea</id>
+    <title>Offline Search Fixture</title>
+    <updated>2026-08-15T10:00:00Z</updated>
+    <author><name>Example Author</name></author>
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="books/offline-search.epub" />
+  </entry>
+
+  <entry>
+    <id>tag:catalog.example.test,2026:browse</id>
+    <title>Browse all publications</title>
+    <updated>2026-08-15T10:00:00Z</updated>
+    <content type="text">Catalog navigation entry.</content>
+    <link rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="./publications.xml" />
+  </entry>
+</feed>

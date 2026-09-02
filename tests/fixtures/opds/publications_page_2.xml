@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/">
+  <id>tag:catalog.example.test,2026:publications-page-2</id>
+  <title>Example publications — page 2</title>
+  <author><name>Example Catalog</name></author>
+  <updated>2026-01-15T10:05:00Z</updated>
+  <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="https://catalog.example.test/catalog/publications?page=2" />
+
+  <entry>
+    <id>https://ids.example.test/publications/red-valley-edition-a</id>
+    <title>Red Valley</title>
+    <updated>2026-01-12T07:00:00Z</updated>
+    <author><name>Dana Moss</name></author>
+    <category term="adventure" label="Adventure" />
+    <dc:language>en</dc:language>
+    <summary type="text">An expedition across an unfamiliar valley.</summary>
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="https://downloads.example.test/files/red-valley.epub" />
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip" href="https://downloads.example.test/files/red-valley.fb2.zip" />
+    <link rel="http://opds-spec.org/image" type="image/jpeg" href="https://cdn.example.test/covers/red-valley.jpg" />
+  </entry>
+</feed>

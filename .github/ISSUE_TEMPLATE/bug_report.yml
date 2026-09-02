@@ -1,0 +1,74 @@
+name: Bug report
+description: Report a reproducible problem in OPDS Desk
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Do not include passwords, tokens, private OPDS URLs, private filesystem
+        paths, config.json, queue databases, or private library contents.
+  - type: input
+    id: version
+    attributes:
+      label: OPDS Desk version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: dropdown
+    id: run-mode
+    attributes:
+      label: Run mode
+      options:
+        - Packaged onefile executable
+        - Packaged onedir executable
+        - Python source checkout
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: dropdown
+    id: consistency
+    attributes:
+      label: Does the issue reproduce consistently?
+      options:
+        - "Yes"
+        - "No"
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant redacted logs
+      description: Include only the smallest useful excerpt after removing private data.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed secrets, private URLs, private paths, and private library data.
+          required: true

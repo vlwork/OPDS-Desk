@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:example:mixed-feed</id>
+  <title>Example mixed feed</title>
+  <updated>2026-08-16T12:00:00Z</updated>
+
+  <entry>
+    <id>urn:example:publication</id>
+    <title>Example Publication</title>
+    <updated>2026-08-16T12:00:00Z</updated>
+    <link rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip" href="book.epub" />
+    <link rel="related" type="application/atom+xml"
+          title="Books by Example Writer" href="writer.xml" />
+  </entry>
+
+  <entry>
+    <id>urn:example:collection</id>
+    <title>Example Collection</title>
+    <updated>2026-08-16T12:00:00Z</updated>
+    <link rel="subsection"
+          type="application/atom+xml;profile=opds-catalog;kind=navigation"
+          href="collection.xml" />
+  </entry>
+
+  <entry>
+    <id>urn:example:related-catalog</id>
+    <title>Related Catalog</title>
+    <updated>2026-08-16T12:00:00Z</updated>
+    <link rel="related" type="application/atom+xml" href="related.xml" />
+  </entry>
+</feed>

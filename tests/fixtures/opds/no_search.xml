@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:uuid:592ee6a8-8d46-4b3f-828a-baf78b21da0a</id>
+  <title>Catalog without search</title>
+  <author><name>Example Catalog</name></author>
+  <updated>2026-01-15T11:00:00Z</updated>
+  <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=navigation" href="no_search.xml" />
+
+  <entry>
+    <id>urn:catalog:all-publications</id>
+    <title>All publications</title>
+    <updated>2026-01-15T11:00:00Z</updated>
+    <content type="text">Browse the complete catalog.</content>
+    <link rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="publications_page_1.xml" />
+  </entry>
+</feed>

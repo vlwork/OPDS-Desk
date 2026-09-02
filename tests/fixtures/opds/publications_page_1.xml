@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/">
+  <id>urn:uuid:50eecfe8-3bff-4565-ae39-c67a05885625</id>
+  <title>Example publications — page 1</title>
+  <author><name>Example Catalog</name></author>
+  <updated>2026-01-15T10:00:00Z</updated>
+  <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="publications_page_1.xml" />
+  <link rel="next" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="./publications_page_2.xml" />
+
+  <entry>
+    <id>urn:uuid:45b1d56f-8a99-4c77-a28a-13ec9b641c83</id>
+    <title>The Clockwork Garden</title>
+    <updated>2026-01-14T09:30:00Z</updated>
+    <author><name>Ada North</name></author>
+    <author><name>Bruno Vale</name></author>
+    <category term="fiction" label="Fiction" />
+    <dc:language>en</dc:language>
+    <summary type="text">A collaborative speculative novel.</summary>
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="books/clockwork-garden.epub" />
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip" href="books/clockwork-garden.fb2.zip" />
+    <link rel="http://opds-spec.org/image" type="image/jpeg" href="covers/clockwork-garden.jpg" />
+    <link rel="http://opds-spec.org/image/thumbnail" type="image/jpeg" href="covers/thumbnails/clockwork-garden.jpg" />
+    <link rel="alternate" type="text/html" href="https://catalog.example.test/books/clockwork-garden" />
+  </entry>
+
+  <entry>
+    <id>tag:catalog.example.test,2026:publication:blue-orbit</id>
+    <title>Blue Orbit</title>
+    <updated>2026-01-13T08:15:00Z</updated>
+    <author><name>Casey Reed</name></author>
+    <category term="science-fiction" label="Science Fiction" />
+    <dc:language>en</dc:language>
+    <summary type="text">A journey through a distant planetary system.</summary>
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="downloads/blue-orbit.epub" />
+    <link rel="http://opds-spec.org/image" type="image/png" href="images/blue-orbit.png" />
+    <link rel="http://opds-spec.org/image/thumbnail" type="image/png" href="images/thumbs/blue-orbit.png" />
+    <link rel="alternate" type="text/html" href="books/blue-orbit.html" />
+  </entry>
+</feed>

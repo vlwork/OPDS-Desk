@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/">
+  <id>urn:uuid:be542b62-b5ec-4375-a8cc-4a1a30951c6a</id>
+  <title>Direct FictionBook acquisition</title>
+  <author><name>Example Catalog</name></author>
+  <updated>2026-01-15T13:00:00Z</updated>
+
+  <entry>
+    <id>urn:uuid:9ff20d2c-1167-4745-bc8b-65b7cb7d8b0c</id>
+    <title>Plain XML Story</title>
+    <updated>2026-01-15T13:00:00Z</updated>
+    <author><name>Finley Lake</name></author>
+    <dc:language>en</dc:language>
+    <summary type="text">This entry exposes a direct, non-archive FictionBook resource.</summary>
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+xml" href="downloads/plain-fictionbook" />
+  </entry>
+</feed>

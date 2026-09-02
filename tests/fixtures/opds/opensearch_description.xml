@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Example catalog search</ShortName>
+  <Description>Offline OpenSearch fixture</Description>
+  <Url type="text/html" template="../web/find?q={searchTerms}" />
+  <Url type="application/atom+xml" template="../feeds/plain.atom?q={searchTerms}" />
+  <Url type="Application/Atom+XML; PROFILE=OPDS-Catalog" template="../feeds/search.atom?q={searchTerms}" />
+</OpenSearchDescription>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+  <id>urn:uuid:e61aff18-a7fb-45d2-83cf-e3dbf6bb63dd</id>
+  <title>Example search results — second page</title>
+  <author><name>Example Catalog</name></author>
+  <updated>2026-08-16T09:00:00Z</updated>
+  <opensearch:totalResults>57</opensearch:totalResults>
+  <link rel="self" type="application/atom+xml;profile=opds-catalog" href="?cursor=next" />
+
+  <entry>
+    <id>tag:catalog.example.test,2026:silver-orchard</id>
+    <title>The Silver Orchard</title>
+    <updated>2026-08-16T09:00:00Z</updated>
+    <author><name>Rina Ash</name></author>
+    <dc:language>en</dc:language>
+    <category term="fantasy" />
+    <link rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"
+          href="books/silver-orchard.epub" />
+  </entry>
+</feed>

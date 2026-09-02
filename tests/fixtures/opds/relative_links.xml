@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/terms/">
+  <id>urn:uuid:0357dc9e-84b1-4ae8-bf51-5a1e14a68996</id>
+  <title>Relative link examples</title>
+  <author><name>Example Catalog</name></author>
+  <updated>2026-01-15T12:00:00Z</updated>
+  <link rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="relative_links.xml" />
+  <link rel="next" type="application/atom+xml;profile=opds-catalog;kind=acquisition" href="?page=2" />
+
+  <entry>
+    <id>urn:isbn:9780000000001</id>
+    <title>Paths and Pages</title>
+    <updated>2026-01-15T12:00:00Z</updated>
+    <author><name>Ellis Stone</name></author>
+    <dc:language>en</dc:language>
+    <summary type="text">A publication used to verify relative URL resolution.</summary>
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="book.epub" />
+    <link rel="http://opds-spec.org/acquisition/open-access" type="application/fb2+zip" href="./book.fb2" />
+    <link rel="http://opds-spec.org/image" type="image/jpeg" href="../covers/cover.jpg" />
+  </entry>
+
+  <entry>
+    <id>urn:catalog:root-navigation</id>
+    <title>Catalog root</title>
+    <updated>2026-01-15T12:00:00Z</updated>
+    <content type="text">Return to the root navigation feed.</content>
+    <link rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=navigation" href="/catalog/root" />
+  </entry>
+</feed>
