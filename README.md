@@ -12,6 +12,18 @@ OPDS Desk is a local desktop application with a Flask backend and a pywebview de
 
 No separate application server is required. Network access is required to connect to the configured OPDS source and to retrieve books from acquisition URLs supplied by that source.
 
+## Compatibility
+
+OPDS Desk is a general-purpose client for OPDS 1.x catalogs.
+
+It is designed to work with standards-compatible OPDS services and has also
+been tested with Flibusta-style OPDS catalog structures.
+
+OPDS Desk is an independent project and is not affiliated with, endorsed by,
+or operated by Flibusta or any other catalog provider. Users are responsible
+for ensuring that their use of configured OPDS sources complies with applicable
+laws and the terms of those services.
+
 ## Features
 
 - First-run setup and local library folder selection.
